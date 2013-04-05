@@ -55,6 +55,8 @@ node default {
   include hub
   include nginx
   include nvm
+  include erlang
+  include golang
 
   # node versions
   include nodejs::0-8
