@@ -3,5 +3,5 @@ class people::jchris {
   include dropbox
   include skype
   include onepassword
-
+  include zsh
 }
