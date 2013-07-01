@@ -59,7 +59,7 @@ node default {
   # include golang # doesn't work?
 
   # node versions
-  include nodejs::0_10
+  include nodejs::v0_10
 
   # default ruby versions
   include ruby::1_9_3
