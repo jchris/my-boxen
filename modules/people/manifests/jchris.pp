@@ -8,4 +8,12 @@ class people::jchris {
     source => 'robbyrussell/oh-my-zsh',
     path   => "/Users/${::luser}/.oh-my-zsh",
   }
+  package {
+  	[
+  		"go",
+  		"mercurial",
+  		"tree",
+  	]:
+  	ensure => present,
+  }
 }

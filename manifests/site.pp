@@ -56,7 +56,7 @@ node default {
   include nginx
   include nvm
   include erlang
-  include golang
+  # include golang # doesn't work?
 
   # node versions
   include nodejs::0-8
